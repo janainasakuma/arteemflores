@@ -8,20 +8,23 @@ import Register from './componentes/Paginas/users/register';
 import UserList from './componentes/Paginas/users/userList';
 import UserManagement from './componentes/Paginas/users/UserManagement';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import PaginaFavoritos from './componentes/PaginaFavoritos';
-import PaginaLogin from './componentes/PaginaLogin';
-import PaginaCarrinho from './componentes/PaginaCarrinho';
+import PaginaFavoritos from './componentes/PaginaFavoritos/PaginaFavoritos';
+import PaginaLogin from './componentes/PaginaLogin/PaginaLogin';
+import PaginaCarrinho from './componentes/PaginaCarrinho/PaginaCarrinho';
+
 
 function App() {
    
   return (
     <Router>
-        {/* Código existente */}
         <div>
             <Header />
       <SecaoCapa />
       <Produtos />
       <SecaoSobre />
+      <PaginaFavoritos />
+      <PaginaLogin /> 
+      <PaginaCarrinho />
       
 
       <UserManagement />
