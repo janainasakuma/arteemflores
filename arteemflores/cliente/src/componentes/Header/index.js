@@ -42,8 +42,8 @@ const Header = () => {
 
                 <div className="icons">
                     <button> <img src='./assets/favorito.png'/> </button>
-                    <button>👤</button>
-                    <button>🛒</button>
+                    <button> <img src='./assets/login.png'/></button>
+                    <button> <img src='./assets/carrinho.png'/></button>
                 </div>
             </div>
             

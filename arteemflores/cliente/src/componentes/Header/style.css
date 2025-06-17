@@ -97,11 +97,16 @@
     color: #6a432d;
   }
 
+  .icons  {
+    margin-right: 80px;
+  }
+
+
     .icons button  {
     height: 50px;
     background: none;
     border: none;
     cursor: pointer;
     color: #6a432d;
-
+    margin-right: 40px;
   }
