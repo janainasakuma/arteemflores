@@ -1,0 +1,84 @@
+.secao-capa {
+    background-image: url('/public/assets/jardim.jpg');
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.capa {
+    float: left;
+    margin-left: 200px;
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    color: white;
+}
+
+.texto-capa {
+    margin-top: 100px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 500px;
+    color: white;
+}
+
+.texto-capa h1 {
+    font-family: "Cinzel Decorative", serif;
+    padding-top: 50px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 10px;
+    color: #ffdebf;
+}
+
+.texto-capa p{
+    font-family: "Cinzel Decorative", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    margin-right: 60px; 
+}
+
+/*media query*/
+
+@media (max-width: 768px) {
+    .capa {
+        justify-content: flex-start;
+    }
+
+    .texto-capa {
+        margin-left: -50px;
+        margin-top: 160px;
+        max-width: 350px;
+    }
+
+    .texto-capa h1 {
+        font-size: 2rem;
+    }
+
+    .texto-capa p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .capa {
+        background-position: 50%;
+    }
+    .texto-capa {
+        margin-left:-50px;
+        max-width: 300px;
+    }
+    .texto-capa p {
+        font-size: 20px;
+    }
+    .texto-capa h1 {
+        font-size: 30px;
+    }
+}
