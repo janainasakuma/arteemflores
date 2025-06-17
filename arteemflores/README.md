@@ -1,4 +1,4 @@
-# truck-stop
+# Arte em Flores
 
 abrir terminal em "api" (vai usar a porta 3000): 
 npm install

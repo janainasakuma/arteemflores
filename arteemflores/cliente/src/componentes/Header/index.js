@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -41,10 +42,22 @@ const Header = () => {
                 <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet"></link>
 
                 <div className="icons">
-                    <button> <img src='./assets/favorito.png'/> </button>
-                    <button> <img src='./assets/login.png'/></button>
-                    <button> <img src='./assets/carrinho.png'/></button>
-                </div>
+                <button>
+                    <Link to="/PaginaFavoritos">
+                        <img src='./assets/favorito.png' alt="Favoritos" />
+                    </Link>
+                </button>
+                <button>
+                    <Link to="/PaginaLogin">
+                        <img src='./assets/login.png' alt="Login" />
+                    </Link>
+                </button>
+                <button>
+                    <Link to="/PaginaCarrinho">
+                        <img src='./assets/carrinho.png' alt="Carrinho" />
+                    </Link>
+                </button>
+            </div>
             </div>
             
         </header>
