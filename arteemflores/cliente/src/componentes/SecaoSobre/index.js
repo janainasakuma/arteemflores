@@ -4,39 +4,23 @@ import './style.css'
 const SecaoSobre = () => {
     return (
     <section id='sobre'>
+        <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet"></link>
+            <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet"></link>
+            
         <div className='sobre center'>
             <h2>SOBRE NÓS</h2>
-                <p>A Truck Stop foi criada por nós, quatro estudantes do IFSP Caraguatatuba, com o objetivo de reduzir os acidentes envolvendo caminhões no Brasil. Sabemos que muitos desses acidentes poderiam ser evitados com pausas adequadas para descanso e reabastecimento dos motoristas, garantindo que eles estejam mais atentos e descansados durante as viagens.
-</p>
-        
-
-        <div className='elementos-sobre'>
-            <picture>
-                <img src='./assets/caminhaoazul.jpg' 
-                alt='Nossa loja'/>
-            </picture>
-        
-
-        <div className='sobre-elementos primeiro-sobre'>
-            <h4>Nossas Estadias</h4>
-            <p>
-                Hoje temos mais de 10 estadias pelo Brasil! Com acomodações confortáveis e relaxantes, comidas sempre feitas na hora e um ótimo espaço de lazer, com mesa de sinuca, pembolim e sala de estar.
-            </p>
+                <p>Onde flores e arte se entrelaçam
+Acreditamos que cada flor carrega um significado especial e que a arte tem o poder de transformar emoções em expressão. Nosso objetivo é conectar esses dois mundos, explorando a simbologia das flores e como elas inspiram diferentes formas de arte.
+Aqui, você encontrará histórias, curiosidades e interpretações artísticas baseadas na linguagem das flores. Seja para apreciar a beleza da natureza, encontrar inspiração ou aprofundar-se na relação entre arte e sentimento, este espaço foi criado para você!
+Floresça com a gente!</p>
         </div>
 
-        <div className='sobre-elementos'>
-            <h4>Nossa Missão</h4>
-            <p>
-                Nossa missão é oferecer espaços seguros e confortáveis, para que os motoristas possam seguir suas jornadas com mais segurança e bem-estar. A Truck Stop é uma solução pensada para proteger vidas e melhorar a qualidade de vida de quem está nas estradas.
-            </p>
-            </div>
-        
-        <picture>
-            <img src='./assets/hotel.jpg' alt='Atendimento'/>
-        </picture>
-        
-        </div>
-        </div>
+        <div class="redes-sociais">
+      <a href="https://www.youtube.com/"><img src='./assets/youtube.png'></img><i class="fab fa-youtube"></i> @arteemflores</a>
+      <a href="https://x.com/"><img src='./assets/twitter.png'></img><i class="fab fa-twitter"></i> @arteemflores</a>
+      <a href="https://www.tumblr.com/"><img src='./assets/tumblr.png'></img><i class="fab fa-tumblr"></i> @arteemflores</a>
+      <a href="https://br.pinterest.com/"><img src='./assets/pinterest.png'></img><i class="fab fa-pinterest"></i> @arteemfloresoficial</a>
+    </div>
     </section>
     )
 }

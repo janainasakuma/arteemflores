@@ -1,16 +1,16 @@
 #produtos {
-    font-family: "Inter", sans-serif;
+    font-family: "Bellefair", serif;
     font-optical-sizing: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
     margin: 0 auto;
-    background-color: BLACK;
+    background-color: #fffaf3;
 }
 
 .secao-produtos {
-    font-family: "Inter", sans-serif;
+    font-family: "Bellefair", serif;
     font-optical-sizing: auto;
     text-align: center;
     margin-top: 50px;
@@ -18,27 +18,25 @@
 }
 
 .secao-produtos p {
-    font-family: "Inter", sans-serif;
+    font-family: "Bellefair", serif;
     font-optical-sizing: auto;
-    font-style: italic;
     font-size: 1.4rem;
-    color: white;
+    color: #6a432d;
 }
 
 .titulos {
-    font-family: "Inter", sans-serif;
+    font-family: "Cinzel Decorative", serif;
     font-optical-sizing: auto;
     margin-bottom: 25px;
     font-size: 2.5rem;
-    color: white;
+    color: #6a432d;
 }
 
 .paragrafo {
-    font-family: "Inter", sans-serif;
+    font-family: "Bellefair", serif;
     font-optical-sizing: auto;
-    font-style: italic;
     margin-bottom: 25px;
-    color: white;
+    color: #dbc1a8;
 
 }
 
@@ -58,32 +56,30 @@
 }
 
 .card-plano {
-    background-color: #f6f6f6;
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #AD9C8C;
+    background-color: #dbc1a8;
     border-radius: 10px;
 }
 
 .card-plano h3 {
-    font-family: "Inter", sans-serif;
+    font-family: "Cinzel Decorative", serif;
     font-optical-sizing: auto;
     font-size: 2rem;
-    color: white;
-    font-style:italic;
+    color: #6a432d;
 }
 
 .card-plano p {
-    font-family: "Inter", sans-serif;
+    font-family: "Bellefair", serif;
     font-optical-sizing: auto;
-    font-style: italic;
     font-weight: 600px;
     font-size: 1.25rem;
 }
 
 .lista-plano {
+    font-family: "Cinzel Decorative", serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,9 +89,8 @@
 }
 
 .lista-plano p {
-    font-family: "Inter", sans-serif;
+    font-family: "Bellefair", serif;
     font-optical-sizing: auto;
-    font-style: italic;
     font-weight: 600;
     font-size: 1.1rem;
     margin-bottom: 25px;

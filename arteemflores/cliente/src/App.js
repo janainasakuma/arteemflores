@@ -30,11 +30,6 @@ function App() {
       <UserManagement />
         </div>
         <Routes>
-            <Route path="/register" element={<Register />} />
-            <Route path="/users" element={<UserList />} />
-            <Route path="/" element={<UserManagement />} />
-        </Routes>
-        <Routes>
             <Route path="/favoritos" element={<PaginaFavoritos />} />
             <Route path="/login" element={<PaginaLogin />} />
             <Route path="/carrinho" element={<PaginaCarrinho />} />

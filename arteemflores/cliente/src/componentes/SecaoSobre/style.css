@@ -1,27 +1,47 @@
 #sobre {
-  background-color: #AD9C8C;
+  background-color: #fffaf3;
   padding: 100px 0px;
 }
 
 .sobre {
-  font-family: "Inter";
+  font-family: "Cinzel Decorative", serif;
   text-align: center;
-  color: black;
+  color: #6a432d;
 }
 
 .sobre h2 {
+  font-family: "Cinzel Decorative", serif;
   font-size: 40px;
   /* Tamanho atualizado para h2 */
   margin-bottom: 25px;
-  color: black;
+  color: #6a432d;
 }
 
 .sobre p {
-  font-family: "Inter";
-  font-style: italic;
+  font-family: "Bellefair", serif;
   font-size: 20px;
   /* Tamanho atualizado para p */
   margin-bottom: 50px;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.redes-sociais a {
+  text-decoration: none;
+  color: #7b4a18;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.redes-sociais img {
+  max-width: 50px;
 }
 
 .elementos-sobre {
@@ -38,15 +58,14 @@
 }
 
 .sobre-elementos h4 {
-  font-family: "Inter";
-  font-style: italic;
+  font-family: "Cinzel Decorative", serif;
   font-size: 40px;
   /* Tamanho atualizado para h4 */
   line-height: 1.25;
 }
 
 .sobre-elementos p {
-  font-family: "Inter";
+  font-family: "Bellefair", serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.25;
