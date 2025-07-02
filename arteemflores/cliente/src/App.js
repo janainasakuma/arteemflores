@@ -22,12 +22,8 @@ function App() {
       <SecaoCapa />
       <Produtos />
       <SecaoSobre />
-      <PaginaFavoritos />
-      <PaginaLogin /> 
-      <PaginaCarrinho />
-      
-
       <UserManagement />
+
         </div>
         <Routes>
             <Route path="/favoritos" element={<PaginaFavoritos />} />
