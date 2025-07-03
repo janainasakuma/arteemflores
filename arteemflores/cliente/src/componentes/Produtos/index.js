@@ -18,6 +18,7 @@ const Produtos = () => {
                         <img src="./assets/lilas.jpg" alt="Plano Premium"></img>
                     </picture>
                     <p>R$ 550,00</p>
+                    <button className="btn-comprar">Comprar</button>
                 </div>
 
                 <div className="card-plano">
@@ -25,7 +26,8 @@ const Produtos = () => {
                     <picture>
                         <img src="./assets/lirios.jpg" alt="Plano Anual"></img>
                     </picture>
-                    <p>R$ 1.550,00</p>
+                    <p>R$ 700,00</p>
+                    <button className="btn-comprar">Comprar</button>
                 </div>
 
                 <div className="card-plano">
@@ -34,6 +36,7 @@ const Produtos = () => {
                         <img src="./assets/girassois.jpg" alt="Plano 6 meses"></img>
                     </picture>
                     <p>R$ 750,00</p>
+                    <button className="btn-comprar">Comprar</button>
                 </div>
 
                 <div className="card-plano">
@@ -41,7 +44,8 @@ const Produtos = () => {
                     <picture>
                         <img src="./assets/peonias.jpg" alt="Plano Diária"></img>
                     </picture>
-                    <p>R$ 250,00</p>
+                    <p>R$ 650,00</p>
+                    <button className="btn-comprar">Comprar</button>
                     </div>
 
                     <div className="card-plano">
@@ -49,7 +53,8 @@ const Produtos = () => {
                     <picture>
                         <img src="./assets/vasodeflores.jpg" alt="Plano 6 meses"></img>
                     </picture>
-                    <p>R$ 750,00</p>
+                    <p>R$ 550,00</p>
+                    <button className="btn-comprar">Comprar</button>
                 </div>
 
                 <div className="card-plano">
@@ -57,7 +62,8 @@ const Produtos = () => {
                     <picture>
                         <img src="./assets/jarraderosas.jpg" alt="Plano Diária"></img>
                     </picture>
-                    <p>R$ 250,00</p>
+                    <p>R$ 750,00</p>
+                    <button className="btn-comprar">Comprar</button>
                     </div>
                 </div>
             </div>

@@ -24,10 +24,7 @@ img {
 
 /* Definindo um fundo para a página */
 .App {
-  font-family: Arial, sans-serif;
-  /*padding: 20px;*/
-  background-color: #f4f4f9;
-  /*display: flex;*/
+  background-color: #fffaf3;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;

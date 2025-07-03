@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import { Link } from 'react-router-dom';
 
+
 const Header = () => {
     return (
         <header>
@@ -20,7 +21,7 @@ const Header = () => {
                         </li>
 
                         <li>
-                            <a href='/SecaoSobre'>Sobre</a>
+                            <a href='/Sobre'>Sobre</a>
                         </li>
 
                         <li>

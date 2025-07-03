@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import Header from './componentes/Header';
 import SecaoCapa from './componentes/SecaoCapa';
@@ -12,26 +12,28 @@ import PaginaFavoritos from './componentes/PaginaFavoritos/PaginaFavoritos';
 import PaginaLogin from './componentes/PaginaLogin/PaginaLogin';
 import PaginaCarrinho from './componentes/PaginaCarrinho/PaginaCarrinho';
 
-
 function App() {
-   
   return (
     <Router>
-        <div>
-            <Header />
-      <SecaoCapa />
-      <Produtos />
-      <SecaoSobre />
-      <UserManagement />
-
-        </div>
-        <Routes>
-            <Route path="/favoritos" element={<PaginaFavoritos />} />
-            <Route path="/login" element={<PaginaLogin />} />
-            <Route path="/carrinho" element={<PaginaCarrinho />} />
-        </Routes>
+      <Header />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <SecaoCapa />
+          </>
+        } />
+        <Route path="/register" element={<Register />} />
+        <Route path="/userlist" element={<UserList />} />
+        <Route path="/usermanagement" element={<UserManagement />} />
+        <Route path="/favoritos" element={<PaginaFavoritos />} />
+        <Route path="/login" element={<PaginaLogin />} />
+        <Route path="/carrinho" element={<PaginaCarrinho />} />
+        <Route path="/produtos" element={<Produtos />} />
+        <Route path="/sobre" element={<SecaoSobre />} />
+        <Route path="/paginas" element={<UserManagement />} />
+      </Routes>
     </Router>
-);
+  );
 }
 
 export default App;
