@@ -22,6 +22,7 @@ function App() {
             <SecaoCapa />
           </>
         } />
+        <Route path="/secaocapa" element={<SecaoCapa />} />
         <Route path="/register" element={<Register />} />
         <Route path="/userlist" element={<UserList />} />
         <Route path="/usermanagement" element={<UserManagement />} />

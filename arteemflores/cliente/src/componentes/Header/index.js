@@ -9,13 +9,16 @@ const Header = () => {
                     
             <div className='header-center'>
                 <picture>
-                    <img src='./assets/logoarteemflores.png' alt='logo otica'/>
+                    <img href='/SecaoCapa' src='./assets/logoarteemflores.png' alt='logo otica'/>
                 </picture>
 
                 <nav className='menu'>
 
                 
                  <ul>
+                 <li>
+                            <a href='/SecaoCapa'>Ínicio</a>
+                        </li>
                         <li>
                             <a href='/Produtos'>Galeria</a>
                         </li>
